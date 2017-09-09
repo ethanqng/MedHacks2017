@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="f9G-ph-RWc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="f9G-ph-RWc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
         <!--Pulse Instructions View Controller-->
         <scene sceneID="sZq-rR-rSz">
             <objects>
-                <viewController id="f9G-ph-RWc" customClass="PulseInstructionsViewController" customModule="Pedal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="f9G-ph-RWc" customClass="PulseInstructionsViewController" customModule="MedHacks2017" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hdA-z9-RQu"/>
                         <viewControllerLayoutGuide type="bottom" id="Eam-0b-JdD"/>
@@ -114,7 +114,7 @@
         <!--PulseQ1 View Controller-->
         <scene sceneID="FfY-6I-PAC">
             <objects>
-                <viewController id="ULZ-6v-KOd" customClass="PulseQ1ViewController" customModule="Pedal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ULZ-6v-KOd" customClass="PulseQ1ViewController" customModule="MedHacks2017" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zfY-1V-c7j"/>
                         <viewControllerLayoutGuide type="bottom" id="j7e-4h-Euc"/>
@@ -194,7 +194,7 @@
         <!--PulseQ2 View Controller-->
         <scene sceneID="DSy-nj-9vY">
             <objects>
-                <viewController id="ZHH-Tz-JaQ" customClass="PulseQ2ViewController" customModule="Pedal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZHH-Tz-JaQ" customClass="PulseQ2ViewController" customModule="MedHacks2017" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IGm-yK-efX"/>
                         <viewControllerLayoutGuide type="bottom" id="2vg-4I-8rt"/>
@@ -213,17 +213,6 @@
                                 <color key="textColor" cyan="0.0" magenta="0.0" yellow="0.0" black="0.79126468120805371" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="jPf-CW-wya">
-                                <rect key="frame" x="63" y="280" width="248" height="31"/>
-                                <color key="tintColor" red="0.92549019607843142" green="0.10588235294117647" blue="0.32156862745098036" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="59Q-N4-99G"/>
-                                    <constraint firstAttribute="width" constant="244" id="dCf-TB-qrG"/>
-                                </constraints>
-                                <connections>
-                                    <action selector="pulseSliderPressed:" destination="ZHH-Tz-JaQ" eventType="valueChanged" id="9bK-Vb-lMZ"/>
-                                </connections>
-                            </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOZ-c1-UMh">
                                 <rect key="frame" x="113" y="340" width="146" height="103"/>
                                 <constraints>
@@ -272,6 +261,17 @@
                                     <action selector="timerButtonPressed:" destination="ZHH-Tz-JaQ" eventType="touchUpInside" id="nI7-TE-EjI"/>
                                 </connections>
                             </button>
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="jPf-CW-wya">
+                                <rect key="frame" x="63" y="286" width="248" height="31"/>
+                                <color key="tintColor" red="0.92549019607843142" green="0.10588235294117647" blue="0.32156862745098036" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="59Q-N4-99G"/>
+                                    <constraint firstAttribute="width" constant="244" id="dCf-TB-qrG"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="pulseSliderPressed:" destination="ZHH-Tz-JaQ" eventType="valueChanged" id="9bK-Vb-lMZ"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -305,7 +305,7 @@
         <!--PulseQ3 View Controller-->
         <scene sceneID="mPl-wX-ndU">
             <objects>
-                <viewController id="9aY-Y9-xde" customClass="PulseQ3ViewController" customModule="Pedal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9aY-Y9-xde" customClass="PulseQ3ViewController" customModule="MedHacks2017" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qxb-Ky-zrT"/>
                         <viewControllerLayoutGuide type="bottom" id="lEg-tw-M0s"/>
@@ -395,6 +395,6 @@
         <image name="pulseCheck.jpg" width="913" height="689"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="V1i-PK-HZA"/>
+        <segue reference="dhQ-YD-Zdi"/>
     </inferredMetricsTieBreakers>
 </document>
