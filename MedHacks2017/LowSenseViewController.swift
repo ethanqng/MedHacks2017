@@ -6,7 +6,7 @@
 //  Copyright © 2017 Olivia Brown. All rights reserved.
 //
 
-
+import Firebase
 import UIKit
 import RealmSwift
 
@@ -42,6 +42,7 @@ class LowSenseViewController: UIViewController, SmoothViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        var ref: DatabaseReference?
         self.storage = self.navigationController as? StorageController
         scribbleView.backgroundColor = .clear
         scribbleView.color = UIColor(colorLiteralRed: 61.0/255.0, green: 191.0/255.0, blue: 184.0/255.0, alpha: 1.0)
@@ -71,6 +72,52 @@ class LowSenseViewController: UIViewController, SmoothViewDelegate {
         nextButton()
     }
 
+    func addToFirebase(checkup) {
+        let user = Auth.auth().currentUser
+        let uid = user!.uid
+        let left = checkup.leftFoot
+        let right = checkup.rightFoot
+
+        let keyInCheckups = ref?.child("checkups").childByAutoId().key
+        let keyInUsers = ref?.child("users").child(uid).childByAutoId().key
+
+        let checkupEntry = [
+            "user": uid,
+            "date": checkup.date,
+            "sent": checkup.sent,
+            "left": [
+                "pulse": [
+                    "felt": left.pulse.felt,
+                    "beats": left.pulse.beats,
+                    "strength": left.pulse.strength
+                ],
+                "palm": left.palm
+                "ankle": left.ankle,
+                "standing": left.standing
+                "highSense": left.highSense,
+                "lowSense": left.lowSense
+            ],
+            "right": [
+                "pulse": [
+                    "felt": right.pulse.felt,
+                    "beats": right.pulse.beats,
+                    "strength": right.pulse.strength
+                ],
+                "palm": right.palm,
+                "ankle": right.ankle,
+                "standing": right.standing,
+                "highSense": right.highSense,
+                "lowSense": right.lowSense
+            ]
+        ]
+
+        let childUpdates = [
+            "/checkups/\(keyInCheckups)": checkupEntry,
+            "/users/\(uid)/checkups/\(keyInUsers)": keyInCheckups
+        ]
+        ref?.updateChildValues(childUpdates)
+    }
+
     func nextButton(){
         print("touching here")
         if !storage!.didCheckLeft {
@@ -91,6 +138,8 @@ class LowSenseViewController: UIViewController, SmoothViewDelegate {
                 thisPatient?.checkups.append(newCheckup)
             }
             
+            addToFirebase(newCheckup)
+
             if thisPatient!.checkups.count == 1 {
                 performSegue(withIdentifier: "mainWelcome", sender: self)
             }
