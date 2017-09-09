@@ -12,9 +12,12 @@
 		752DEB441F63A76B0070C161 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752DEB421F63A76B0070C161 /* Main.storyboard */; };
 		752DEB461F63A76B0070C161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752DEB451F63A76B0070C161 /* Assets.xcassets */; };
 		752DEB491F63A76B0070C161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752DEB471F63A76B0070C161 /* LaunchScreen.storyboard */; };
+		8BB9C16D0643F97C3A59E2C3 /* Pods_MedHacks2017.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D2A29A9B5D84173B67E8D /* Pods_MedHacks2017.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AB8CBF739B9735CF6E88F32 /* Pods-MedHacks2017.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedHacks2017.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedHacks2017/Pods-MedHacks2017.debug.xcconfig"; sourceTree = "<group>"; };
+		337D2A29A9B5D84173B67E8D /* Pods_MedHacks2017.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedHacks2017.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		752DEB3B1F63A76B0070C161 /* MedHacks2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedHacks2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		752DEB3E1F63A76B0070C161 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		752DEB401F63A76B0070C161 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		752DEB451F63A76B0070C161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		752DEB481F63A76B0070C161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		752DEB4A1F63A76B0070C161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F55D30C494EC3A67B84941 /* Pods-MedHacks2017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedHacks2017.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedHacks2017/Pods-MedHacks2017.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BB9C16D0643F97C3A59E2C3 /* Pods_MedHacks2017.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14A89114F8F46EBA37D4FB7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				337D2A29A9B5D84173B67E8D /* Pods_MedHacks2017.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		752DEB321F63A76B0070C161 = {
 			isa = PBXGroup;
 			children = (
 				752DEB3D1F63A76B0070C161 /* MedHacks2017 */,
 				752DEB3C1F63A76B0070C161 /* Products */,
+				AF57C983070734AA9FBFB1E0 /* Pods */,
+				14A89114F8F46EBA37D4FB7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = MedHacks2017;
 			sourceTree = "<group>";
 		};
+		AF57C983070734AA9FBFB1E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AB8CBF739B9735CF6E88F32 /* Pods-MedHacks2017.debug.xcconfig */,
+				E0F55D30C494EC3A67B84941 /* Pods-MedHacks2017.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 752DEB4D1F63A76B0070C161 /* Build configuration list for PBXNativeTarget "MedHacks2017" */;
 			buildPhases = (
+				BA8852E4FDDB7741E51649DD /* [CP] Check Pods Manifest.lock */,
 				752DEB371F63A76B0070C161 /* Sources */,
 				752DEB381F63A76B0070C161 /* Frameworks */,
 				752DEB391F63A76B0070C161 /* Resources */,
+				721999F4E8A90DA597110615 /* [CP] Embed Pods Frameworks */,
+				6F021D50DD0B38A7B6B3EC1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F021D50DD0B38A7B6B3EC1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedHacks2017/Pods-MedHacks2017-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		721999F4E8A90DA597110615 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedHacks2017/Pods-MedHacks2017-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA8852E4FDDB7741E51649DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		752DEB371F63A76B0070C161 /* Sources */ = {
@@ -259,6 +334,7 @@
 		};
 		752DEB4E1F63A76B0070C161 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB8CBF739B9735CF6E88F32 /* Pods-MedHacks2017.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8GEKYYW3CQ;
@@ -272,6 +348,7 @@
 		};
 		752DEB4F1F63A76B0070C161 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F55D30C494EC3A67B84941 /* Pods-MedHacks2017.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8GEKYYW3CQ;
