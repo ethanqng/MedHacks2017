@@ -71,7 +71,7 @@ extension SeeCategoryViewController: UICollectionViewDelegate, UICollectionViewD
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "category", for: indexPath) as! CategoryCollectionViewCell
-        var row = indexPath.row
+        let row = indexPath.row
         
         let leftSelected = segmentedControl.selectedSegmentIndex == 0
         let date = leftData[row].date

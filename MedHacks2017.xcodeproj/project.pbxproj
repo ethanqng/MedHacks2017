@@ -105,7 +105,7 @@
 		BD30BFDD1E2A820D0040B2E6 /* SenseCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenseCollectionCell.swift; sourceTree = "<group>"; };
 		BD5A42091E236092007EB1B0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BE20F2ED48788F069C8C244F /* Pods-PedalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PedalUITests/Pods-PedalUITests.release.xcconfig"; sourceTree = "<group>"; };
-		E007ADA51E288E86002A3979 /* NoCheckupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoCheckupsViewController.swift; sourceTree = "<group>"; };
+		E007ADA51E288E86002A3979 /* NoCheckupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoCheckupsViewController.swift; path = MedHacks2017/NoCheckupsViewController.swift; sourceTree = SOURCE_ROOT; };
 		E00E22291DFF2F3600442D0E /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		E00E222D1DFF3B2A00442D0E /* SmothView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmothView.swift; sourceTree = "<group>"; };
 		E00E222F1DFF8E3900442D0E /* SensitivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensitivityViewController.swift; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		E03A12A11DF76CD200C27298 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
 		E03A12A71DF76F8600C27298 /* PedalLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PedalLogoWhite.png; sourceTree = "<group>"; };
 		E03A12A91DF76FF400C27298 /* PedalLogoRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PedalLogoRed.png; sourceTree = "<group>"; };
-		E04740EA1E296C76002CC207 /* NewPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPatientViewController.swift; sourceTree = "<group>"; };
+		E04740EA1E296C76002CC207 /* NewPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewPatientViewController.swift; path = MedHacks2017/NewPatientViewController.swift; sourceTree = SOURCE_ROOT; };
 		E04740ED1E29D899002CC207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Records.storyboard; sourceTree = "<group>"; };
 		E04740F01E29D981002CC207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Pulse.storyboard; sourceTree = "<group>"; };
 		E04740F31E29D9B6002CC207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Camera.storyboard; sourceTree = "<group>"; };
@@ -133,9 +133,9 @@
 		E06D97E01DF0D65F00BC31B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E06D97E31DF0D65F00BC31B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E06D97E61DF0D65F00BC31B9 /* Pedal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pedal.xcdatamodel; sourceTree = "<group>"; };
-		E06D97E81DF0D65F00BC31B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E06D97E81DF0D65F00BC31B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MedHacks2017/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		E06D97EB1DF0D65F00BC31B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E06D97ED1DF0D65F00BC31B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06D97ED1DF0D65F00BC31B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MedHacks2017/Info.plist; sourceTree = SOURCE_ROOT; };
 		E07512D11E00890900E35AED /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		E07512D21E00890900E35AED /* CheckupCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckupCollectionViewCell.swift; sourceTree = "<group>"; };
 		E07512D31E00890900E35AED /* Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };

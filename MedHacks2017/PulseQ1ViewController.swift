@@ -42,7 +42,7 @@ class PulseQ1ViewController: UIViewController {
         answerSwitch.setOn(false, animated: true)
         answerSwitch.onTintColor = onColor
         answerSwitch.tintColor = offColor
-        storage = self.navigationController as! StorageController
+        storage = self.navigationController as? StorageController
     }
     
     override func didReceiveMemoryWarning() {

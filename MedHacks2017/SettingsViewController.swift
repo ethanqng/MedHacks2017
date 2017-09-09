@@ -25,9 +25,9 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
         
         if let patient = self.patient{
-            self.nameTextField.text = patient.name ?? ""
-            self.emailTextField.text = patient.email ?? ""
-            self.doctorEmailTextField.text = patient.doctorEmail ?? ""
+            self.nameTextField.text = patient.name
+            self.emailTextField.text = patient.email
+            self.doctorEmailTextField.text = patient.doctorEmail
             
         }
         saveButton.layer.cornerRadius = 10
