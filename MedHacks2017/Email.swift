@@ -2,8 +2,8 @@
 //  Email.swift
 //  
 //
-//  Created by Nabil K on 2016-12-08.
-//
+//  Created by Olivia Brown on 9/9/17.
+//  Copyright © 2017 Olivia Brown. All rights reserved.
 //
 
 import Foundation
