@@ -7,9 +7,5 @@ target 'MedHacks2017' do
 
   # Pods for MedHacks2017
   pod 'RealmSwift', '~> 2.0.2'
-  target 'PedalTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end

@@ -10,8 +10,6 @@ import UIKit
 import Foundation
 import RealmSwift
 
-
-
 class ViewController: UIViewController {
 
     @IBOutlet weak var youCheckedLabel: UILabel!

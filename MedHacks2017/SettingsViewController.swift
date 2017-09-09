@@ -39,9 +39,6 @@ class SettingsViewController: UIViewController {
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(viewTapped))
         view.addGestureRecognizer(tapGesture)
-        // Do any additional setup after loading the view.
-        
-        
     }
     
     func viewTapped() {
@@ -57,12 +54,8 @@ class SettingsViewController: UIViewController {
         let valid = name.characters.count > 0 && email.characters.count > 0
         
         return valid
-    
     }
 
-
-
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let realm = try! Realm()
         let memory = realm.objects(Patient.self)
@@ -103,8 +96,6 @@ class SettingsViewController: UIViewController {
                 welcomeScreen.memory = realm.objects(Patient.self)
             }
         }
-        
-    
     }
     
     
