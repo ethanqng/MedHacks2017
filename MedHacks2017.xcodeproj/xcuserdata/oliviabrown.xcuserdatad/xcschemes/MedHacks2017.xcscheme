@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "752DEB3A1F63A76B0070C161"
+               BlueprintIdentifier = "E06D97DA1DF0D65F00BC31B9"
                BuildableName = "MedHacks2017.app"
                BlueprintName = "MedHacks2017"
                ReferencedContainer = "container:MedHacks2017.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "752DEB3A1F63A76B0070C161"
+            BlueprintIdentifier = "E06D97DA1DF0D65F00BC31B9"
             BuildableName = "MedHacks2017.app"
             BlueprintName = "MedHacks2017"
             ReferencedContainer = "container:MedHacks2017.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "752DEB3A1F63A76B0070C161"
+            BlueprintIdentifier = "E06D97DA1DF0D65F00BC31B9"
             BuildableName = "MedHacks2017.app"
             BlueprintName = "MedHacks2017"
             ReferencedContainer = "container:MedHacks2017.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "752DEB3A1F63A76B0070C161"
+            BlueprintIdentifier = "E06D97DA1DF0D65F00BC31B9"
             BuildableName = "MedHacks2017.app"
             BlueprintName = "MedHacks2017"
             ReferencedContainer = "container:MedHacks2017.xcodeproj">
