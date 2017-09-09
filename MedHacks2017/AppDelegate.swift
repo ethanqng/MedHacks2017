@@ -6,6 +6,7 @@
 //  Copyright © 2017 Olivia Brown. All rights reserved.
 //
 
+import Firebase
 import UIKit
 import RealmSwift
 
@@ -16,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
+        FirebaseApp.configure()
+
         let realm = try! Realm()
         let patients = realm.objects(Patient.self)
         

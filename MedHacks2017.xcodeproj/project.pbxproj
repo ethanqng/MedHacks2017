@@ -12,6 +12,7 @@
 		BD30BFDC1E2A80230040B2E6 /* SensitivityCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30BFDB1E2A80230040B2E6 /* SensitivityCollectionViewController.swift */; };
 		BD30BFDE1E2A820D0040B2E6 /* SenseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30BFDD1E2A820D0040B2E6 /* SenseCollectionCell.swift */; };
 		BD5A420A1E236092007EB1B0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A42091E236092007EB1B0 /* SettingsViewController.swift */; };
+		DAF88F8A1F643F2C006341CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAF88F891F643F2C006341CE /* GoogleService-Info.plist */; };
 		E007ADA61E288E86002A3979 /* NoCheckupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E007ADA51E288E86002A3979 /* NoCheckupsViewController.swift */; };
 		E00E222A1DFF2F3600442D0E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E22291DFF2F3600442D0E /* Helper.swift */; };
 		E00E222E1DFF3B2A00442D0E /* SmothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E222D1DFF3B2A00442D0E /* SmothView.swift */; };
@@ -109,6 +110,7 @@
 		BD30BFDD1E2A820D0040B2E6 /* SenseCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenseCollectionCell.swift; sourceTree = "<group>"; };
 		BD5A42091E236092007EB1B0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BE20F2ED48788F069C8C244F /* Pods-PedalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PedalUITests/Pods-PedalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DAF88F891F643F2C006341CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E007ADA51E288E86002A3979 /* NoCheckupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoCheckupsViewController.swift; path = MedHacks2017/NoCheckupsViewController.swift; sourceTree = SOURCE_ROOT; };
 		E00E22291DFF2F3600442D0E /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		E00E222D1DFF3B2A00442D0E /* SmothView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmothView.swift; sourceTree = "<group>"; };
@@ -305,6 +307,7 @@
 		E06D97DD1DF0D65F00BC31B9 /* MedHacks2017 */ = {
 			isa = PBXGroup;
 			children = (
+				DAF88F891F643F2C006341CE /* GoogleService-Info.plist */,
 				E07512E81E008A2D00E35AED /* Appointment */,
 				E07512E51E00897A00E35AED /* Records */,
 				E03A12881DF7430C00C27298 /* Model */,
@@ -523,6 +526,7 @@
 				E04740F41E29D9B6002CC207 /* Camera.storyboard in Resources */,
 				E03A12A41DF76CD200C27298 /* Comfortaa-Regular.ttf in Resources */,
 				E03A12A31DF76CD200C27298 /* Comfortaa-Light.ttf in Resources */,
+				DAF88F8A1F643F2C006341CE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
