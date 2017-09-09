@@ -279,7 +279,7 @@
 		E06D97D21DF0D65E00BC31B9 = {
 			isa = PBXGroup;
 			children = (
-				E06D97DD1DF0D65F00BC31B9 /* Pedal */,
+				E06D97DD1DF0D65F00BC31B9 /* MedHacks2017 */,
 				E06D97DC1DF0D65F00BC31B9 /* Products */,
 				364023B6DB9546D95B1842E9 /* Pods */,
 				D98B1B2DC17AD1625C457CED /* Frameworks */,
@@ -294,7 +294,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E06D97DD1DF0D65F00BC31B9 /* Pedal */ = {
+		E06D97DD1DF0D65F00BC31B9 /* MedHacks2017 */ = {
 			isa = PBXGroup;
 			children = (
 				E07512E81E008A2D00E35AED /* Appointment */,
@@ -314,7 +314,7 @@
 				E06D97E51DF0D65F00BC31B9 /* Pedal.xcdatamodeld */,
 				E03A129E1DF76C9900C27298 /* Resources */,
 			);
-			path = Pedal;
+			path = MedHacks2017;
 			sourceTree = "<group>";
 		};
 		E07512CD1E00873D00E35AED /* Pulse */ = {
@@ -773,7 +773,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8GEKYYW3CQ;
-				INFOPLIST_FILE = Pedal/Info.plist;
+				INFOPLIST_FILE = MedHacks2017/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.medhacks.MedHacks2017;
@@ -790,7 +790,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8GEKYYW3CQ;
-				INFOPLIST_FILE = Pedal/Info.plist;
+				INFOPLIST_FILE = MedHacks2017/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.medhacks.MedHacks2017;
