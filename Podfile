@@ -6,6 +6,9 @@ target 'MedHacks2017' do
   use_frameworks!
 
   # Pods for MedHacks2017
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
   pod 'RealmSwift', '~> 2.0.2'
 
 end

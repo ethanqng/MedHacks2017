@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65374B2B5C8C68D509F91A0A /* Pods_Pedal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AAC5DE80E4C497E550F7E8 /* Pods_Pedal.framework */; };
+		96C0FC97DD21F521830FFA6B /* Pods_MedHacks2017.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5611F3365910406E02541F /* Pods_MedHacks2017.framework */; };
 		BD30BFDC1E2A80230040B2E6 /* SensitivityCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30BFDB1E2A80230040B2E6 /* SensitivityCollectionViewController.swift */; };
 		BD30BFDE1E2A820D0040B2E6 /* SenseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30BFDD1E2A820D0040B2E6 /* SenseCollectionCell.swift */; };
 		BD5A420A1E236092007EB1B0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A42091E236092007EB1B0 /* SettingsViewController.swift */; };
@@ -97,7 +98,10 @@
 		0D3FAAEF4B85F745FB1A84D1 /* Pods-Pedal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pedal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pedal/Pods-Pedal.debug.xcconfig"; sourceTree = "<group>"; };
 		1C870F4C2CE47838110B5C18 /* Pods-Pedal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pedal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pedal/Pods-Pedal.release.xcconfig"; sourceTree = "<group>"; };
 		231C177AF5F324497815513E /* Pods-PedalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PedalTests/Pods-PedalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		523FA4DD8B29747BC04CBDE3 /* Pods-MedHacks2017.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedHacks2017.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedHacks2017/Pods-MedHacks2017.debug.xcconfig"; sourceTree = "<group>"; };
+		5A5611F3365910406E02541F /* Pods_MedHacks2017.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedHacks2017.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C050A260E0EA5F88263EBA0 /* Pods-PedalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PedalTests/Pods-PedalTests.release.xcconfig"; sourceTree = "<group>"; };
+		67A9762B1F90845703A29A76 /* Pods-MedHacks2017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedHacks2017.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedHacks2017/Pods-MedHacks2017.release.xcconfig"; sourceTree = "<group>"; };
 		72AAC5DE80E4C497E550F7E8 /* Pods_Pedal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pedal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4590BEE79A332498D018B5 /* Pods_PedalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PedalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B1E5517927E97829FC3978 /* Pods-PedalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PedalUITests/Pods-PedalUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65374B2B5C8C68D509F91A0A /* Pods_Pedal.framework in Frameworks */,
+				96C0FC97DD21F521830FFA6B /* Pods_MedHacks2017.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +214,8 @@
 				5C050A260E0EA5F88263EBA0 /* Pods-PedalTests.release.xcconfig */,
 				B3B1E5517927E97829FC3978 /* Pods-PedalUITests.debug.xcconfig */,
 				BE20F2ED48788F069C8C244F /* Pods-PedalUITests.release.xcconfig */,
+				523FA4DD8B29747BC04CBDE3 /* Pods-MedHacks2017.debug.xcconfig */,
+				67A9762B1F90845703A29A76 /* Pods-MedHacks2017.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -219,6 +226,7 @@
 				72AAC5DE80E4C497E550F7E8 /* Pods_Pedal.framework */,
 				059609FEBDFE78B33CDCF952 /* Pods_PedalTests.framework */,
 				8B4590BEE79A332498D018B5 /* Pods_PedalUITests.framework */,
+				5A5611F3365910406E02541F /* Pods_MedHacks2017.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -527,13 +535,26 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MedHacks2017/Pods-MedHacks2017-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pedal/Pods-Pedal-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedHacks2017/Pods-MedHacks2017-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F1736536200E5C5CBB654F7A /* [CP] Check Pods Manifest.lock */ = {
@@ -542,13 +563,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedHacks2017-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F9E227134692D9DC2097CB5C /* [CP] Copy Pods Resources */ = {
@@ -563,7 +587,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pedal/Pods-Pedal-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedHacks2017/Pods-MedHacks2017-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -768,7 +792,7 @@
 		};
 		E06D98071DF0D65F00BC31B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D3FAAEF4B85F745FB1A84D1 /* Pods-Pedal.debug.xcconfig */;
+			baseConfigurationReference = 523FA4DD8B29747BC04CBDE3 /* Pods-MedHacks2017.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -785,7 +809,7 @@
 		};
 		E06D98081DF0D65F00BC31B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C870F4C2CE47838110B5C18 /* Pods-Pedal.release.xcconfig */;
+			baseConfigurationReference = 67A9762B1F90845703A29A76 /* Pods-MedHacks2017.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
