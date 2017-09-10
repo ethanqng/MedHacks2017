@@ -134,19 +134,19 @@ class ViewController: UIViewController {
         let todaysDate = Date()
         var lastCheckDate: Date = thisPatient!.checkups.last!.date
         let interval = todaysDate.timeIntervalSince(lastCheckDate)
-        let secondsInWeek:Double = 604800
+        let secondsInWeek:Double = 2592000
         let numWeeks = interval/secondsInWeek
         
         if numWeeks < 1{
-            return ("recently.", "Your next checkup is in 3 weeks!")
+            return ("recently.", "Your next checkup is in 3 months!")
         }
             
         else if numWeeks < 2{
-            return("1 week ago.", "Your next checkup is in 2 weeks!")
+            return("1 week ago.", "Your next checkup is in 2 months!")
         }
             
         else if numWeeks < 3{
-            return("2 weeks ago.", "Your next checkup is in a week!")
+            return("2 weeks ago.", "Your next checkup is in a month!")
         }
             
         else{
@@ -186,7 +186,6 @@ extension ViewController{
     func createAlerts(){
         
         self.alert = UIAlertController(title: "Welcome!", message: "Please enter the following information (only shared with your doctor) to get started with MedHacks2017. These can be changed at any time", preferredStyle: .alert)
-        
         
         
         let submitAction = UIAlertAction(title: "Submit", style: .default, handler: { action in

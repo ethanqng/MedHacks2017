@@ -44,5 +44,4 @@ class PulseQ3ViewController: UIViewController {
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
-
 }
